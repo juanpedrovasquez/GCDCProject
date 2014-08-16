@@ -1,5 +1,7 @@
 # GCDCProject
+
 By Juan Pedro Vasquez
+
 Course Project
 Coursera's Getting and Cleaning Data - 2014-08-15
 
@@ -8,15 +10,24 @@ Coursera's Getting and Cleaning Data - 2014-08-15
 
 ## Abstract
 The main goal achieved through the R code contained in the file:
+
 **run_analysis.R**
+
 is to transform the raw data, referent to a human dynamics study that uses accelerometer and gyroscope in smartphones, whose data and detailed info are available in:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 into well structured and formatted tidy data, like the contents of the output file:
+
 **secondTidyData.txt**
+
 also, performing aditional operations over such data:
+
 1. discard all the measurements, except the related to mean and standard deviation
 2. average the measurements by subject and kind of activity
+
 The variables, and code operations are full described in the file named:
+
 **CodeBook.md**
 
 
