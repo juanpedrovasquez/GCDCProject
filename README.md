@@ -52,8 +52,8 @@ The tasks carried out by the code in **run_analysis.R** may be described by main
 7. PUTS ALL TOGETHER: SUBJECTS, ACTIVITIES AND MEASUREMENTS
  - Using cbind function
 8. GENERATES THE SECOND TIDY DATA SET WITH AVERAGES PER COLUMN
- - With a two nested loop that hash the tidy data by subject and kind of activity
- - Then, as a matrix appart, averages the measurements with sapply function
+ - With a two nested loop that hashes the tidy data by subject and kind of activity
+ - Then, as a matrix apart, averages the measurements with sapply function
  - For each hash, completes the single-row output for each iteration 
  - and adds "Mean." to the column name for better description
  - after all the loops are done, writes down all the output rows into 'secondTidyData.txt' file  
